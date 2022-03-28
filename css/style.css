@@ -1,25 +1,42 @@
 
 
+
 .container{
     /* TEST */
-    height: 300px;
-    background-color: aqua;
+    /* height: 300px;
+    background-color: aqua; */
 }
 
 .row{
-    /* TEST */
     width: 100%;
     height: 100px;
     background-color: pink;
     
 }
 
+.row-6{
+    margin-bottom:70px;
+}
+
 .box{
-    /* TEST */
     width: 100%;
     height: 100%;
-    border: 4px solid grey;
+    border: 4px solid white;
     background-color: blue;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 
+.inner-box{
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    background-color: greenyellow;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
